@@ -3,6 +3,7 @@ from flask import Flask,render_template, url_for ,flash , redirect
 #from forms import RegistrationForm, LoginForm
 #from sklearn.externals import joblib
 import joblib
+import ipywidgets as widgets
 from flask import request
 import numpy as np
 import tensorflow
